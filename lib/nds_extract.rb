@@ -5,7 +5,9 @@ require 'pp'
 
 def directors_totals(nds)
   pp nds
-result = { :director => "total"}
+  result = { :director => "total"}
+end 
+
   counter = 0
 directors_totals = directors_database [counter][:name]
 while counter < nds.length do
