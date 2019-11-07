@@ -8,7 +8,7 @@ def directors_totals(nds)
   result = {}
   counter = 0 
   while counter < nds.length do 
-     name = nds[counter][:name]
+    name = nds[counter][:name]
     total = 0  
     counter_two = 0 
     movies = nds[counter][:movies]
@@ -23,11 +23,4 @@ end
 result
 end 
 
-def print_director_movie_total 
-  counter = 0
-directors_totals = directors_database [counter][:name]
-while counter < nds.length do
-  puts director_movie_total[counter][:worldwide_gross]
-  counter +=1 
-end 
-end
+
