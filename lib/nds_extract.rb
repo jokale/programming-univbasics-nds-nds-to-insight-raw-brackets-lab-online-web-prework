@@ -9,7 +9,7 @@ def directors_totals(nds)
   counter = 0 
   while counter < nds.length do 
      name = nds[counter][:name]
-    total = nds[counter]
+    total = nds[counter][:movies]
   result[name]= total 
     counter += 1 
 end 
