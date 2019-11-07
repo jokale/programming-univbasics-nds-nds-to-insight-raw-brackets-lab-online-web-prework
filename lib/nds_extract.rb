@@ -8,5 +8,11 @@ def directors_totals(nds)
   result = { :director => "total"}
 end 
 
-
-
+def print_director_movie_total 
+  counter = 0
+directors_totals = directors_database [counter][:name]
+while counter < nds.length do
+  puts director_movie_total[counter][:worldwide_gross]
+  counter +=1 
+end 
+end
