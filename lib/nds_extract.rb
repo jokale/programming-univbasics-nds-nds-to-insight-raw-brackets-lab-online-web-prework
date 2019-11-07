@@ -5,7 +5,15 @@ require 'pp'
 
 def directors_totals(nds)
   pp nds
-  result = { :director => "total"}
+  result = {}
+  counter = 0 
+  while counter < nds.length do 
+     name = 
+    total = 
+  
+    counter += 1 
+end 
+result
 end 
 
 def print_director_movie_total 
